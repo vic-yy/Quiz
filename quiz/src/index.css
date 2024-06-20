@@ -2,4 +2,54 @@
   margin: 0;
   padding: 0;
   font-family: "Raleway", sans-serif;
+  color: white;
+}
+
+body,
+html {
+  min-height: 100vh;
+  /* altura da tela do usuário */
+  height: 100%;
+
+  background-color: #1c1c1c;
+  /* cor de fundo */
+}
+
+
+img {
+  max-width: 100%;
+  /* isso e para a imagem nao ultrapassar o tamanho da tela */
+}
+
+/* vamos customizar o botão */
+button {
+  /* isso serve para tirar a borda do botão */
+  font-weight: bold;
+  
+  /* isso serve para deixar o texto do botão em negrito  */
+  font-size: 1.2rem;
+  /* isso serve para aumentar o tamanho do texto do botão */
+  cursor: pointer;
+  /* isso serve para mudar o cursor do mouse para uma mãozinha quando passar por cima do botão */
+  padding: .8rem 1.5rem;
+  /* isso serve para aumentar o padding do botão */
+  /* padding é o espaçamento interno do botão */
+  background: linear-gradient(
+    90deg, 
+    rgba(132, 53, 222, 1) 0%, 
+    rgba(184, 84, 232, 1) 100%
+    );
+    border-radius: 3rem;
+    border: none;
+  
+}
+
+button:hover {
+  background: linear-gradient(
+    90deg,  
+    rgba(184, 84, 232, 1) 0%,
+    
+    rgba(132, 53, 222, 1) 100%
+    );
+  
 }
